@@ -13,7 +13,7 @@ for ((i = 1; i <= $1; i++))
 do
 	echo -n ". "
 	
-	sleep 1
+	sleep 60
 
 	if (( $i % 10 == 0 ))
 	then
